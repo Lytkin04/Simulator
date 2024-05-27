@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <AssemblyName>MotherboardFaultChecker</AssemblyName>
+        <RootNamespace>MotherboardFaultChecker</RootNamespace>
+        <PackageId>MotherboardFaultChecker</PackageId>
+        <Authors>lytkin</Authors>
+        <Company>lytkin</Company>
+        <Product>MotherboardFaultChecker</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="Assets\B550M AORUS"/>
+        <Resource Include="Assets\B550M AORUS.WEBP"/>
+        <None Remove="Assets\Sine-Wave.png"/>
+        <Resource Include="Assets\Sine-Wave.png"/>
+        <None Remove="Assets\52f3db57ce395fe72e8b456d.png"/>
+        <Resource Include="Assets\No-Wave.png"/>
+    </ItemGroup>
+</Project>
